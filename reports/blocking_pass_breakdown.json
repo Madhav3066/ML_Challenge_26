@@ -1,0 +1,408 @@
+{
+  "stats": {
+    "S2": {
+      "total": 5000,
+      "p1": 2402,
+      "p2": 2146,
+      "p3": 3443,
+      "p4": 2656,
+      "any": 3955,
+      "missed": 1045
+    },
+    "S3": {
+      "total": 5000,
+      "p1": 2300,
+      "p2": 1990,
+      "p3": 3378,
+      "p4": 2529,
+      "any": 3912,
+      "missed": 1088
+    }
+  },
+  "missed_samples": {
+    "S2": [
+      {
+        "s1_name": "Maure Williams Colombier Inc",
+        "m_name": "Maure Wilblims Colombier Inc",
+        "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+        "m_addr": "",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "maure williams colombier||us",
+          "pass2": "maure williams||85||us",
+          "pass3": "maurew||ny||us",
+          "pass4": "85||mau||us"
+        },
+        "k1_m": {
+          "pass1": "maure wilblims colombier||us",
+          "pass2": "",
+          "pass3": "",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "Raj Investments LLP",
+        "m_name": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி",
+        "s1_addr": "6(29), C.I.T. Colony, 2Nd Main Road Mylapore, Chennai, Tamil Nadu",
+        "m_addr": "6(29), C.I.T. COLONY, 2ND MAIN ROAD MYLAPORE, CHENNAI, Tamil Nadu",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "raj investments||india",
+          "pass2": "raj investments||6||india",
+          "pass3": "rajinv||tn||india",
+          "pass4": "6||raj||india"
+        },
+        "k1_m": {
+          "pass1": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி||india",
+          "pass2": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ்||6||india",
+          "pass3": "ரஜஇனவஸ||tn||india",
+          "pass4": "6||ரஜஇ||india"
+        }
+      },
+      {
+        "s1_name": "Ss Food Private Limited",
+        "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+        "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+        "m_addr": "AF-0684, NANDGRAM NEAR MOTHER INDIA PUBLIC SCHOOL. PH. 989, GHAZIABAD, 9487203, उत्तर प्रदेश",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "ss food||india",
+          "pass2": "ss food||684||india",
+          "pass3": "ssfood||up||india",
+          "pass4": "684||ssf||india"
+        },
+        "k1_m": {
+          "pass1": "एसएस फूड प्राइवेट लिमिटेड||india",
+          "pass2": "एसएस फूड||684||india",
+          "pass3": "एसएसफड||उतत||india",
+          "pass4": "684||एसए||india"
+        }
+      },
+      {
+        "s1_name": "Ss Food Private Limited",
+        "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+        "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+        "m_addr": "AF-0684, Uttar Pradesh, GHAZIABAD, 9487203",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "ss food||india",
+          "pass2": "ss food||684||india",
+          "pass3": "ssfood||up||india",
+          "pass4": "684||ssf||india"
+        },
+        "k1_m": {
+          "pass1": "एसएस फूड प्राइवेट लिमिटेड||india",
+          "pass2": "एसएस फूड||684||india",
+          "pass3": "एसएसफड||up||india",
+          "pass4": "684||एसए||india"
+        }
+      },
+      {
+        "s1_name": "Red Ventures Private Limited",
+        "m_name": "रेड वेंचर्स प्राइवेट लिमिटेड",
+        "s1_addr": "Rajasthan, Jaipur, Banipark, Gokul Apartment, E-3A Kanti Chandra Road, G-1",
+        "m_addr": "G-1, BANIPARK, JAIPUR, Rajasthan",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "red ventures||india",
+          "pass2": "red ventures||3a||india",
+          "pass3": "redven||rj||india",
+          "pass4": "3a||red||india"
+        },
+        "k1_m": {
+          "pass1": "रेड वेंचर्स प्राइवेट लिमिटेड||india",
+          "pass2": "रेड वेंचर्स||1||india",
+          "pass3": "रडवचरस||rj||india",
+          "pass4": "1||रडव||india"
+        }
+      },
+      {
+        "s1_name": "Hotel Enterprises Limited",
+        "m_name": "होटल एंटरप्राइजेज लिमिटेड",
+        "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+        "m_addr": "WZ-187C SHOP NO.13, DELHI, WEST DELHI, Delhi",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "hotel enterprises||india",
+          "pass2": "hotel enterprises||187c||india",
+          "pass3": "hotele||dl||india",
+          "pass4": "187c||hot||india"
+        },
+        "k1_m": {
+          "pass1": "होटल एंटरप्राइजेज लिमिटेड||india",
+          "pass2": "होटल एंटरप्राइजेज||187c||india",
+          "pass3": "हटलएटर||dl||india",
+          "pass4": "187c||हटल||india"
+        }
+      },
+      {
+        "s1_name": "Orellana Investments LLC",
+        "m_name": "Orellana Investments Investments Llc",
+        "s1_addr": "728 A Quail Avenue, Fl Ground Floor, Geneva, IA",
+        "m_addr": "",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "orellana investments||us",
+          "pass2": "orellana investments||728||us",
+          "pass3": "orella||ia||us",
+          "pass4": "728||ore||us"
+        },
+        "k1_m": {
+          "pass1": "orellana investments investments||us",
+          "pass2": "",
+          "pass3": "",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "Dick Regional Armada Corp",
+        "m_name": "Dick Regional",
+        "s1_addr": "33466 Warwick Hills Road, Yucaipa, CA",
+        "m_addr": "",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "dick regional armada||us",
+          "pass2": "dick regional||33466||us",
+          "pass3": "dickre||ca||us",
+          "pass4": "33466||dic||us"
+        },
+        "k1_m": {
+          "pass1": "dick regional||us",
+          "pass2": "",
+          "pass3": "",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "AP Hospitality Inc",
+        "m_name": "AP INC SERVICE #80430",
+        "s1_addr": "20085 Us 23, Circleville, OH",
+        "m_addr": "20085 US 23, CIRCLEVILLE, OH",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "ap hospitality||us",
+          "pass2": "ap hospitality||20085||us",
+          "pass3": "aphosp||oh||us",
+          "pass4": "20085||aph||us"
+        },
+        "k1_m": {
+          "pass1": "ap inc service 80430||us",
+          "pass2": "ap inc||20085||us",
+          "pass3": "apincs||oh||us",
+          "pass4": "20085||api||us"
+        }
+      },
+      {
+        "s1_name": "AP Hospitality Inc",
+        "m_name": "AP  Inc Hospitality",
+        "s1_addr": "20085 Us 23, Circleville, OH",
+        "m_addr": "20085 US 23, CIRCLEVILLE, OH",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "ap hospitality||us",
+          "pass2": "ap hospitality||20085||us",
+          "pass3": "aphosp||oh||us",
+          "pass4": "20085||aph||us"
+        },
+        "k1_m": {
+          "pass1": "ap inc hospitality||us",
+          "pass2": "ap inc||20085||us",
+          "pass3": "apinch||oh||us",
+          "pass4": "20085||api||us"
+        }
+      }
+    ],
+    "S3": [
+      {
+        "s1_name": "Maure Williams Colombier Inc",
+        "m_name": "Dréxkor",
+        "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+        "m_addr": "85 Wanye Avenue, Ticonderoga Townshiip, New York",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "maure williams colombier||us",
+          "pass2": "maure williams||85||us",
+          "pass3": "maurew||ny||us",
+          "pass4": "85||mau||us"
+        },
+        "k1_m": {
+          "pass1": "drexkor||us",
+          "pass2": "drexkor||85||us",
+          "pass3": "drexko||ny||us",
+          "pass4": "85||dre||us"
+        }
+      },
+      {
+        "s1_name": "Maure Williams Colombier Inc",
+        "m_name": "Maure Williams Inc Center",
+        "s1_addr": "85 Wayne Avenue, Ticonderoga, NY",
+        "m_addr": "",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "maure williams colombier||us",
+          "pass2": "maure williams||85||us",
+          "pass3": "maurew||ny||us",
+          "pass4": "85||mau||us"
+        },
+        "k1_m": {
+          "pass1": "maure williams inc center||us",
+          "pass2": "",
+          "pass3": "",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "Raj Investments LLP",
+        "m_name": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி",
+        "s1_addr": "6(29), C.I.T. Colony, 2Nd Main Road Mylapore, Chennai, Tamil Nadu",
+        "m_addr": "6(29), C.i.t. Colony, 2Nd Main Road Mylapore, Chennai, தமிழ்நாடு",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "raj investments||india",
+          "pass2": "raj investments||6||india",
+          "pass3": "rajinv||tn||india",
+          "pass4": "6||raj||india"
+        },
+        "k1_m": {
+          "pass1": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ் எல்எல்பி||india",
+          "pass2": "ராஜ் இன்வெஸ்ட்மெண்ட்ஸ்||6||india",
+          "pass3": "ரஜஇனவஸ||தமழ||india",
+          "pass4": "6||ரஜஇ||india"
+        }
+      },
+      {
+        "s1_name": "Ss Food Private Limited",
+        "m_name": "एसएस फूड प्राइवेट लिमिटेड",
+        "s1_addr": "Af-684, Nandgram Near Mother India Public School. Ph. 989, 9487203, Ghaziabad, Uttar Pradesh",
+        "m_addr": "Af-684, Ghaziabad, UP",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "ss food||india",
+          "pass2": "ss food||684||india",
+          "pass3": "ssfood||up||india",
+          "pass4": "684||ssf||india"
+        },
+        "k1_m": {
+          "pass1": "एसएस फूड प्राइवेट लिमिटेड||india",
+          "pass2": "एसएस फूड||684||india",
+          "pass3": "एसएसफड||up||india",
+          "pass4": "684||एसए||india"
+        }
+      },
+      {
+        "s1_name": "Laxmi Golden Investments Private Limited",
+        "m_name": "Laxmi Gbn lnvestments Private Limited",
+        "s1_addr": "New Bridge Business Centre'S 11Th Floor, N1 Block Embassy Manyata Business Tech Park, Naga, Wara, Bangalore, Karnataka",
+        "m_addr": "New Bridge Bssiness Centre's 11Th Floor, N1 Block Embassy Manyata Business Tech Park, Naga, Wara, Bangalore, ಕರ್ನಾಟಕ",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "laxmi golden investments||india",
+          "pass2": "",
+          "pass3": "laxmig||ka||india",
+          "pass4": ""
+        },
+        "k1_m": {
+          "pass1": "laxmi gbn lnvestments||india",
+          "pass2": "",
+          "pass3": "laxmig||ಕರನ||india",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "Hendricks and Flowers Inc",
+        "m_name": "Hendricks and Inc Flowers",
+        "s1_addr": "33 Sleepy Hollow Drive, Danbury, CT",
+        "m_addr": "",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "hendricks and flowers||us",
+          "pass2": "hendricks and||33||us",
+          "pass3": "hendri||ct||us",
+          "pass4": "33||hen||us"
+        },
+        "k1_m": {
+          "pass1": "hendricks and inc flowers||us",
+          "pass2": "",
+          "pass3": "",
+          "pass4": ""
+        }
+      },
+      {
+        "s1_name": "Hotel Enterprises Limited",
+        "m_name": "Hotel Limited Services",
+        "s1_addr": "Wz-187C Shop No.13, 14 Kh. No.47 S/F. Vikaspuri Budhela Village Behind Oxford School, Delhi, West Delhi, Delhi",
+        "m_addr": "Block B-517 Wz-187c Shop No.13, Divreportingcircle, West Delhi, DL",
+        "s1_c": "India",
+        "k1_s1": {
+          "pass1": "hotel enterprises||india",
+          "pass2": "hotel enterprises||187c||india",
+          "pass3": "hotele||dl||india",
+          "pass4": "187c||hot||india"
+        },
+        "k1_m": {
+          "pass1": "hotel limited services||india",
+          "pass2": "hotel limited||517||india",
+          "pass3": "hotell||dl||india",
+          "pass4": "517||hot||india"
+        }
+      },
+      {
+        "s1_name": "Obsidian, LLC",
+        "m_name": "Korbrixx D.B.A. Obsidian, LLC",
+        "s1_addr": "3907 Hamilton Road, Deer Park, WA",
+        "m_addr": "3907 Hamilton Road, Deer Park, WA",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "obsidian||us",
+          "pass2": "obsidian||3907||us",
+          "pass3": "obsidi||wa||us",
+          "pass4": "3907||obs||us"
+        },
+        "k1_m": {
+          "pass1": "korbrixx d b a obsidian||us",
+          "pass2": "korbrixx d||3907||us",
+          "pass3": "korbri||wa||us",
+          "pass4": "3907||kor||us"
+        }
+      },
+      {
+        "s1_name": "AP Hospitality Inc",
+        "m_name": "AP AP Hospitality Incorporated",
+        "s1_addr": "20085 Us 23, Circleville, OH",
+        "m_addr": "20085-20089 Us 23, Circleville, Ohio",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "ap hospitality||us",
+          "pass2": "ap hospitality||20085||us",
+          "pass3": "aphosp||oh||us",
+          "pass4": "20085||aph||us"
+        },
+        "k1_m": {
+          "pass1": "ap ap hospitality||us",
+          "pass2": "ap ap||20085-20089||us",
+          "pass3": "apapho||oh||us",
+          "pass4": "20085-20089||apa||us"
+        }
+      },
+      {
+        "s1_name": "Uptown Pub",
+        "m_name": "Solkeloquo",
+        "s1_addr": "6114 10th Avenue, Spokane Valley, WA",
+        "m_addr": "6114 Tenth Ave, Spokane Valley, Washington",
+        "s1_c": "US",
+        "k1_s1": {
+          "pass1": "uptown pub||us",
+          "pass2": "uptown pub||6114||us",
+          "pass3": "uptown||wa||us",
+          "pass4": "6114||upt||us"
+        },
+        "k1_m": {
+          "pass1": "solkeloquo||us",
+          "pass2": "solkeloquo||6114||us",
+          "pass3": "solkel||wa||us",
+          "pass4": "6114||sol||us"
+        }
+      }
+    ]
+  }
+}
