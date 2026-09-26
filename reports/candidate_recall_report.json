@@ -1,0 +1,42 @@
+{
+  "sample_size": 10000,
+  "total_eval_positives": 34751,
+  "total_candidates_found": 605237,
+  "avg_candidates_per_s1": 60.52,
+  "recall_by_k": {
+    "K=10": {
+      "k": 10,
+      "overall_recall_pct": 68.51,
+      "recalled_total": 23807,
+      "total_positives": 34751,
+      "s2_recall_pct": 70.68,
+      "s3_recall_pct": 66.46
+    },
+    "K=15": {
+      "k": 15,
+      "overall_recall_pct": 69.99,
+      "recalled_total": 24323,
+      "total_positives": 34751,
+      "s2_recall_pct": 72.08,
+      "s3_recall_pct": 68.03
+    },
+    "K=20": {
+      "k": 20,
+      "overall_recall_pct": 70.86,
+      "recalled_total": 24623,
+      "total_positives": 34751,
+      "s2_recall_pct": 72.96,
+      "s3_recall_pct": 68.88
+    },
+    "K=25": {
+      "k": 25,
+      "overall_recall_pct": 71.51,
+      "recalled_total": 24849,
+      "total_positives": 34751,
+      "s2_recall_pct": 73.48,
+      "s3_recall_pct": 69.64
+    }
+  },
+  "elapsed_seconds": 241.8,
+  "peak_memory_mb": 142.7
+}
